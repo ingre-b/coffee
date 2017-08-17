@@ -1,0 +1,535 @@
+body {
+    font-family: 'Raleway' sans-serif;
+}
+header {
+    background-image: url(kava.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+    color: #fff;
+    text-align: center;
+}
+ 
+header nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 20px 0px;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+header nav .leftSide {
+    float:left;
+}
+
+header nav .rightSide {
+    float: right;
+    line-height: 50px;
+    
+}
+
+header nav .logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+
+header nav .phone {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 15px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+header nav .phone .icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header nav .rightSide li {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 50px;
+    position: relative;
+}
+header nav .rightSide li:after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #CACCC0;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    transition: width 0.3s;
+}
+
+header nav .rightSide li:hover:after{
+    width: 100%;
+}
+
+nav .rightSide li:not(:last-of-type){
+    margin-right: 15px;
+}
+
+header nav .rightSide .btn{
+    background-color: #69585B;
+    line-height: 1;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+header h1 {
+    margin: auto;
+    font-size: 32px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+header .button{
+    display: inline-block;
+    background-color: #C7C9B7;
+    padding: 20px 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+}
+
+header .button:hover{
+    background-color: #fff;
+    color: #CACCC0;
+}
+
+section{
+    background-color: #FAFAFA;
+    color: #CACCC0;
+    padding: 90px 0px;
+}
+
+section .inner {
+    width:  90%;
+    max-width: 1100px;
+    margin:auto;
+    text-align:center;
+    font-size: 0;
+    padding: 90px 0px;
+    
+}
+
+section .inner * {
+    font-size: 16px;
+}
+
+section .inner h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: darkslateblue;
+    
+    
+}
+section .inner hr {
+    width: 90px;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+    margin-bottom: 30px;
+    
+}
+
+section .inner > p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+    margin-bottom: 70px;
+    color: #55564f;
+    
+}
+section .inner .third {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+section .inner .third.middle {
+    margin: 0% 2%;
+    
+}
+
+section .inner .third img {
+    margin-bottom: 15px;
+    max-height: 300px;
+}
+
+
+section .inner .third h5 {
+    font-weight: 600;
+    color: darkslateblue;
+    margin-bottom: 15px;
+}
+
+
+section .inner .third p {
+    line-height: 1.5;
+    color: #2c3e50;
+    
+}
+
+
+section.grey {
+    background-color: #CACCC0;
+    
+}
+section.grey .inner .third {
+    text-align: center;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.cta {
+    background-image: url(http://cdn.wallpapersafari.com/32/98/UMxn8T.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    color: white;
+    
+}
+.cta .inner {
+    width: 90%;
+    max-width: 1100px;
+    margin:auto;
+    font-size: 0px;
+    
+    
+}
+.cta .inner * {
+    
+    font-size: 16px;
+}
+
+.cta .inner .leftSide {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
+}
+
+.cta .inner .rightSide {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    background-color: #CACCC0;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    line-height: 1.3;
+    
+}
+
+.cta .inner .leftSide h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+    
+    
+.cta .inner .leftSide p {
+    font-size: 16px;
+   line-height: 1.5;
+    
+    
+}
+
+footer {
+    background-color: #FAFAFA;
+    padding-top: 100px;
+    
+}
+
+
+footer .inner {
+    padding-top: 100px;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 0px;
+    
+}
+footer .inner * {
+     font-size: 16px;
+}
+
+footer .inner .quarter {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+   
+    
+}
+
+footer .inner .quarter h4 {
+    font-weight: 600;
+    margin-bottom: 20px;;
+    
+}
+
+footer .inner .quarter li,
+footer .inner .quarter p {
+    line-height: 1.5;
+    color: #666957;
+    
+}
+
+footer .inner .quarter input {
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+
+
+
+footer .inputWrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+footer .inputWrapper img {
+    position: absolute;
+    top:14px;
+    right:20px;
+    cursor: pointer;
+}
+
+footer .footerBottom {
+    margin-top: 70px;
+    border-top: 1px solid grey;
+    padding: 15px 0px;
+    overflow: auto;
+    
+}
+
+footer .footerBottom .leftSide {
+    float: left;
+    line-height: 32px;
+    
+}
+
+
+footer .footerBottom .rightSide {
+    float: right;
+    
+}
+
+
+footer .footerBottom .rightSide li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.popupBg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+
+
+.popupBg .popup{
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.popupBg .popup h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+.popupBg .popup p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mobileMenu{
+    position: fixed;
+    top: 0px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #c4bfbb;
+    z-index: 5;
+    transition: left 0.5s;
+}
+.mobileMenu li{
+    padding: 15px 20px;
+    border-bottom: 1px solid #454038;
+}
+
+::selection {
+  background: #ffb7b7; 
+}
+::-moz-selection {
+  background: #ffb7b7;
+}
+
+.sandwich {
+    vertical-align: middle;
+    display: none;
+}
+.link{
+  
+   color: #fff;
+   text-decoration: none;
+}
+
+.mobileMenu .link{
+  
+   color: black;
+   text-decoration: none;
+}
+
+
+@media (max-width: 1023px) {
+    header nav .rightSide li{
+        display: none;
+    }
+    .sandwich {
+        display: inline-block;
+    }
+}
+    /*IR PANSETEM IR TELEFONAM*/
+
+@media (min-width: 667px) and (max-width: 1023px)
+{
+/*TIK PLANSETEM*/
+}
+
+@media (max-width: 667px){
+    /*TIK TELEFONAM*/
+  header nav .phone,
+    footer .inner .quarter{
+        display: none;
+    }
+    footer{
+        padding-top: 0px;
+    }
+    
+    footer .footerBottom{
+        margin-top: 0px;
+        border: none;
+    }
+    
+    header h1{
+        font-size: 24px;
+    }
+    
+    header nav{
+        margin-bottom: 60px;
+    }
+    
+    header{
+        padding-bottom: 80px;
+    }
+    
+    section{
+        padding: 60px 0px;
+    }
+
+    section .inner .third{
+        display: block;
+        width: 100%;
+        margin: 0px 0px 50px 0px !important;
+    }
+    .cta .inner .leftSide{
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .cta .inner .rightSide{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    footer{
+        padding-top: 0px;
+        
+    }
+    footer .footerBottom {
+        margin-top: 0px;
+        border: none;
+    }
+    
+}
+
+
+.showPopup{
+    animation-name: showPopup;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+}
+
+/*
+
+
+.sampleClass {float:left;}
+@media only screen and (max-width: 800px){
+	.sampleClass {float:none;}
+}
+*/
+
+@keyframes showPopup{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
